@@ -4,8 +4,14 @@
 
 This was built with Ruby on Rails and NextJS. 
 
-To start the back-end, run `rails db:create` to create the database, then `rails db:migrate` to run the migrations, then `rails db:seed` to seed the database, and finally run `rails s` to start the server.
-To start the front-end, run `npm run dev`
+To start the back-end:
+1.) run `rails db:create` to create the database
+2.) run `rails db:migrate` to run the migrations
+3.) run `rails db:seed` to seed the database
+4.) finally run `rails s` to start the server.
+
+To start the front-end: 
+1.) run `npm run dev`
 
 ## Checklist
 
@@ -17,4 +23,4 @@ Issues and blockers can't always be predicted and writing software under time pr
 - [x] Topics filter on the homepage
 - [ ] Bonus: Budget maximization
 - [ ] Bonus: Folder info page
-- [x] Bonus: (Used Semantic-UI for styling)
+- [x] Bonus: (Used Semantic-UI for styling and wretch for API requests)
