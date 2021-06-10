@@ -10,8 +10,12 @@ To start the back-end:
 3. run `rails db:seed` to seed the database
 4. finally run `rails s` to start the server.
 
+The server will be running at `localhost:3001`
+
 To start the front-end: 
 1. run `npm run dev`
+
+The server will be running at `localhost:3000`
 
 ## Checklist
 
