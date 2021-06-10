@@ -1,0 +1,54 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  padding: 3em;
+}
+
+nav img { 
+  max-width: 200px;
+}
+
+.main-container {
+  padding: 3em;
+}
+
+.content-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  flex: 0 1 24%;
+}
+
+.card img {
+  max-width: 50px;
+}
+
+.main-container .ui.card:first-child {
+  margin-top: 1em;
+}
+
+.main-container .ui.card:last-child {
+  margin-bottom: 1em;
+}
+
+.extra span {
+  color: #8f8fff;
+}
