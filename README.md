@@ -5,13 +5,13 @@
 This was built with Ruby on Rails and NextJS. 
 
 To start the back-end:
-1.) run `rails db:create` to create the database
-2.) run `rails db:migrate` to run the migrations
-3.) run `rails db:seed` to seed the database
-4.) finally run `rails s` to start the server.
+1. run `rails db:create` to create the database
+2. run `rails db:migrate` to run the migrations
+3. run `rails db:seed` to seed the database
+4. finally run `rails s` to start the server.
 
 To start the front-end: 
-1.) run `npm run dev`
+1. run `npm run dev`
 
 ## Checklist
 
